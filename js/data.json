@@ -1,0 +1,240 @@
+[
+    {
+        "name": "Fender Brent Mason",
+        "type": "electric",
+        "price": 470000,
+        "frontImg": "assets/prods/fender-brent-mason.jpg",
+        "backImg": "assets/prods/fender-brent-mason_back.jpg",
+        "stock": 12,
+        "id": 1,
+        "discount": 10000,
+        "newArrival": true,
+        "popularity": 300
+    },
+    {
+        "name": "Fender CC 60S",
+        "type": "acoustic",
+        "price": 55000,
+        "frontImg": "assets/prods/fender-cc60s.jpg",
+        "backImg": "assets/prods/fender-cc60s_back.jpg",
+        "stock": 4,
+        "id": 2,
+        "discount": 5000,
+        "newArrival": true,
+        "popularity": 200
+    },
+    {
+        "name": "Fender J Mascis",
+        "type": "electric",
+        "price": 240000,
+        "frontImg": "assets/prods/fender-j-mascis.jpg",
+        "backImg": "assets/prods/fender-j-mascis_back.jpg",
+        "stock": 5,
+        "id": 3,
+        "newArrival": true,
+        "popularity": 500
+    },
+    {
+        "name": "Fender Stratocaster",
+        "type": "electric",
+        "price": 145000,
+        "frontImg": "assets/prods/fender-stratocaster.jpg",
+        "backImg": "assets/prods/fender-stratocaster_back.jpg",
+        "stock": 20,
+        "id": 4,
+        "discount": 15000,
+        "popularity": 550
+    },
+    {
+        "name": "Fender Stratocaster Blue LIMITED EDITION",
+        "type": "electric",
+        "price": 160000,
+        "frontImg": "assets/prods/fender-stratocaster-blue-LE.jpg",
+        "backImg": "assets/prods/fender-stratocaster-blue-LE_back.jpg",
+        "stock": 3,
+        "id": 5,
+        "discount": 15000,
+        "popularity": 300
+    },
+    {
+        "name": "Fender Telecaster",
+        "type": "electric",
+        "price": 145000,
+        "frontImg": "assets/prods/fender-telecaster.jpg",
+        "backImg": "assets/prods/fender-telecaster_back.jpg",
+        "stock": 15,
+        "id": 6,
+        "popularity": 600
+    },
+    {
+        "name": "Gibson ES 335",
+        "type": "electric",
+        "price": 500000,
+        "frontImg": "assets/prods/gibson-es-335.jpg",
+        "backImg": "assets/prods/gibson-es-335_back.jpg",
+        "stock": 5,
+        "id": 7,
+        "newArrival": true,
+        "popularity": 750
+    },
+    {
+        "name": "Gibson J 45",
+        "type": "acoustic",
+        "price": 360000,
+        "frontImg": "assets/prods/gibson-j-45.jpg",
+        "backImg": "assets/prods/gibson-j-45_back.jpg",
+        "stock": 7,
+        "id": 8,
+        "newArrival": true,
+        "popularity": 200
+    },
+    {
+        "name": "Gibson Les Paul",
+        "type": "electric",
+        "price": 480000,
+        "frontImg": "assets/prods/gibson-les-paul.jpg",
+        "backImg": "assets/prods/gibson-les-paul_back.jpg",
+        "stock": 2,
+        "id": 9,
+        "newArrival": true,
+        "popularity": 900
+    },
+    {
+        "name": "Gibson SG",
+        "type": "electric",
+        "price": 310000,
+        "frontImg": "assets/prods/gibson-sg.jpg",
+        "backImg": "assets/prods/gibson-sg_back.jpg",
+        "stock": 7,
+        "id": 10,
+        "popularity": 850
+    },
+    {
+        "name": "Taylor 210CE",
+        "type": "acoustic",
+        "price": 180000,
+        "frontImg": "assets/prods/taylor-210ce.jpg",
+        "backImg": "assets/prods/taylor-210ce_back.jpg",
+        "stock": 9,
+        "id": 11,
+        "discount": 6000,
+        "newArrival": true,
+        "popularity": 200
+    },
+    {
+        "name": "Taylor 214CE-K",
+        "type": "acoustic",
+        "price": 195000,
+        "frontImg": "assets/prods/taylor-214ce-K.jpg",
+        "backImg": "assets/prods/taylor-214ce-K_back.jpg",
+        "stock": 6,
+        "id": 12,
+        "popularity": 350
+    },
+    {
+        "name": "Yamaha CG102",
+        "type": "classical",
+        "price": 30000,
+        "frontImg": "assets/prods/yamaha-cg102.jpg",
+        "backImg": "assets/prods/yamaha-cg102_back.jpg",
+        "stock": 30,
+        "id": 13,
+        "newArrival": true,
+        "discount": 5000,
+        "popularity": 100
+    },
+    {
+        "name": "Yamaha F335",
+        "type": "acoustic",
+        "price": 20000,
+        "frontImg": "assets/prods/yamaha-f335.jpg",
+        "backImg": "assets/prods/yamaha-f335_back.jpg",
+        "stock": 25,
+        "id": 14,
+        "discount": 2000,
+        "popularity": 200
+    },
+    {
+        "name": "Yamaha FS800",
+        "type": "acoustic",
+        "price": 35000,
+        "frontImg": "assets/prods/yamaha-fs800.jpg",
+        "backImg": "assets/prods/yamaha-fs800_back.jpg",
+        "stock": 17,
+        "id": 15,
+        "popularity": 300
+    },
+    {
+        "name": "Fender FA135ce",
+        "type": "acoustic",
+        "price": 50000,
+        "frontImg": "assets/prods/fender-fa135ce.jpg",
+        "backImg": "assets/prods/fender-fa135ce_back.jpg",
+        "stock": 17,
+        "id": 16,
+        "popularity": 150
+    },
+    {
+        "name": "Fender Sienna Sunburst",
+        "type": "electric",
+        "price": 230000,
+        "frontImg": "assets/prods/fender-sienna-sunburst.jpg",
+        "backImg": "assets/prods/fender-sienna-sunburst_back.jpg",
+        "stock": 18,
+        "id": 17,
+        "discount": 7000,
+        "popularity": 950
+    },
+    {
+        "name": "Gibson Les Paul Deluxe",
+        "type": "electric",
+        "price": 310000,
+        "frontImg": "assets/prods/gibson-les-paul-deluxe.jpg",
+        "backImg": "assets/prods/gibson-les-paul-deluxe_back.jpg",
+        "stock": 7,
+        "id": 18,
+        "popularity": 800
+    },
+    {
+        "name": "Ibanez PIA3761",
+        "type": "electric",
+        "price": 170000,
+        "frontImg": "assets/prods/ibanez-PIA3761.jpg",
+        "backImg": "assets/prods/ibanez-PIA3761t_back.jpg",
+        "stock": 19,
+        "id": 19,
+        "discount": 8000,
+        "popularity": 500
+    },
+    {
+        "name": "Jackson Pro Soloist",
+        "type": "electric",
+        "price": 120000,
+        "frontImg": "assets/prods/jackson-pro-soloist.jpg",
+        "backImg": "assets/prods/jackson-pro-soloist_back.jpg",
+        "stock": 17,
+        "id": 20,
+        "popularity": 400
+    },
+    {
+        "name": "PRS CE 24",
+        "type": "electric",
+        "price": 180000,
+        "frontImg": "assets/prods/prs-ce-24.jpg",
+        "backImg": "assets/prods/prs-ce-24_back.jpg",
+        "stock": 6,
+        "id": 21,
+        "popularity": 350
+    },
+    {
+        "name": "Schecter C6 Elite",
+        "type": "electric",
+        "price": 80000,
+        "frontImg": "assets/prods/schecter-C6-elite.jpg",
+        "backImg": "assets/prods/schecter-C6-elite_back.jpg",
+        "stock": 3,
+        "id": 22,
+        "discount": 7000,
+        "popularity": 300
+    }
+]

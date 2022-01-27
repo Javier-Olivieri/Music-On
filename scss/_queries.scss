@@ -1,0 +1,114 @@
+@media (min-width: 768px){
+    .nav{
+        padding: 1rem 7%;
+    }
+    .header{
+        &__categories{
+            padding: 0 7%;
+            grid-template-columns: 50% repeat(2, auto);
+            grid-template-rows: repeat(2, 180px);
+            grid-template-areas: 'slider electric acoustic'
+                                 'slider discount discount';
+        }
+    }
+    .message{
+        padding: 2rem;
+    }
+    .results{
+        &__filters{
+            padding: 0 7%;
+            padding-top: 2rem;
+            flex-direction: row;
+            align-items: center;
+        }
+        &__filter{
+            margin-left: 1rem;
+        }
+        &__showFilters{
+            width: 100%;
+        }
+    }
+    .sectionSales{
+        &__title{
+            margin-left: 7%;
+        }
+        &__container{
+            padding: 0 6%;
+        }
+        &__sale{
+            width: 23%;
+            &:hover{
+                transform: translateY(-5px);
+            }
+            &:hover .sale__addCart{
+                color: $primary-color;
+            }
+        }
+    }
+    .footer{
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+}
+  
+@media (min-width: 1281px){
+    .nav{
+        padding: 1rem 10%;
+    }
+    .header{
+        &__categories{
+            padding: 0 10%;
+            grid-template-rows: repeat(2, 220px);
+        }
+    }
+    .results{
+        &__filters{
+            padding: 0 10%;
+            padding-top: 2rem;
+        }
+    }
+    .sectionSales{
+        &__title{
+            margin-left: 10%;
+        }
+        &__container{
+            padding: 0 9%;
+        }
+    }
+    .footer__socialContainer{
+        a{
+            width: 40px;
+            height: 40px;
+        }
+    }
+}
+
+@media (min-width: 1400px){
+    html{
+        font-size: 18px;
+    }
+    .nav{
+        padding: 1rem 15%;
+    }
+    .header{
+        &__categories{
+            padding: 0 15%;
+            grid-template-rows: repeat(2, 240px);
+        }
+    }
+    .results{
+        &__filters{
+            padding: 0 15%;
+            padding-top: 2rem;
+        }
+    }
+    .sectionSales{
+        &__title{
+            margin-left: 15%;
+        }
+        &__container{
+            padding: 0 14%;
+        }
+    }
+}

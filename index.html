@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/106966e592.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css"> 
+    <link rel="shortcut icon" href="https://http2.mlstatic.com/D_NQ_NP_729941-MLA44816945911_022021-O.webp">
+    <title>Music On</title>
+</head>
+<body>
+    <div class="messageContainer d-none">
+        <div class="message d-none">
+            <img class="message__img" src="assets/check.png" alt="">
+            <h2 class="message__text message__text--title">Pago realizado correctamente</h2>
+            <span class="message__text message__text--secondary" id="messagePrice">($000.000)</span>
+            <span class="message__text message__text--secondary">Muchas gracias por su compra</span>
+            <span class="message__button">Aceptar</span>
+        </div>
+        <div class="message__overlay d-none"></div>
+    </div>
+    <nav class="nav">
+        <a href="#" class="nav__title">Music On</a>
+        <div class="nav__icons">
+            <div class="nav__cartContainer">
+                <i class="fas fa-shopping-cart nav__cartIcon"></i>
+                <span class="nav__cartNumber hidden">1</span>
+                <div class="nav__cartElContainer d-none">
+                    <p class="cart__title">Carrito:</p>
+                    <div class="cart__container"></div>
+                    <div class="cart__total d-none">
+                        <div>
+                            <span>Total:</span>
+                            <span class="cart__totalNumber">$0</span>
+                        </div>
+                        <span class="cart__checkout">Pagar</span>
+                    </div>
+                    <div class="cart__emptyMsg d-none">El carrito está vacío...</div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <header class="header">
+        <div class="header__categories">
+            <div class="header__slider">
+                <h3 class="header__sliderSlogan">Somos la tienda mas <span>CONFIABLE</span></h3>
+            </div>
+            <a href="pages/allProducts.html" class="header__categoriesContainer header__electric">
+                <span class="header__categories-text">ELECTRICA</span>
+            </a>
+            <a href="pages/allProducts.html" class="header__categoriesContainer header__acoustic">
+                <span class="header__categories-text">ACUSTICA</span>
+            </a>
+            <a href="pages/allProducts.html" class="header__categoriesContainer header__discount">
+                <span class="header__categories-text">HASTA <span class="header__textColor"> 30% </span> DE DESCUENTO</span>
+            </a>
+        </div>
+    </header>
+    <section class="sectionSales">
+        <h2 class="sectionSales__title">Ofertas imperdibles</h2>
+        <div class="sectionSales__container sectionOffers__container">
+        </div>
+        <a href="./pages/allProducts.html" class="sectionSales__seeMore" id="seeMoreOffers">- VER MÁS -</a>
+    </section>
+    <section class="sectionSales">
+        <h2 class="sectionSales__title">Recien llegados</h2>
+        <div class="sectionSales__container sectionNewArrival__container">
+        </div>
+        <a href="./pages/allProducts.html" class="sectionSales__seeMore" id="seeMoreNewSeason">- VER MÁS -</a>
+    </section>
+    <footer class="footer">
+        <a href="#" class="footer__logo">Music On</a>
+        <div class="footer__social">
+            <p>Nuestras Redes:</p>
+            <div class="footer__socialContainer">
+                <a href="https://www.Linkedin.com/in/coderman/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/javier-olivieri"><i class="fab fa-github"></i></a>
+                <a href="mailto:coderjav@gmail.com"><i class="fa fa-envelope"></i></a>
+            </div>
+        </div>
+        <span class="footer__bottom">©2022 - Javier Olivieri</span>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="./js/app.js"></script>
+    <script src="./js/cart.js"></script>
+</body>
+</html>
